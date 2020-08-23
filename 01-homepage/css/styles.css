@@ -319,8 +319,6 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .w-detail .icon{ font-size: 3.5em; line-height: 1; color: #E45F74; }
 
-
-
 /* ---------------------------------
 8. WEDDING CEREMONY
 --------------------------------- */
@@ -346,13 +344,18 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 
 .contact-area .phone{ margin: 10px 0; font-size: 2em; color: #E45F74; }
-.contact-area .icon{ font-size: 1.2em; font-family: 'Playball', cursive; color: #E45F74; }
 
 /* ---------------------------------
 10. VIEW GALLERY
 --------------------------------- */
 
 .galery-area .gallery-btn{ margin-top: 30px; }
+.galery-area{ overflow: hidden; position: relative; background-color: #FFE4E1;}
+
+
+.contact .icon{ font-size: 1.2em; font-family: 'Playball', cursive; color: #E45F74; }
+
+.contact .phone{ margin: 10px 0; font-size: 2em; color: #E45F74; }
 
 
 
@@ -392,3 +395,6 @@ footer .email-area .submit-btn:hover{ background: #000; color: #E55D73; }
 
 
 footer .copyright{ padding: 20px 0 30px; }
+.aligncenter {
+    text-align: center;
+}
